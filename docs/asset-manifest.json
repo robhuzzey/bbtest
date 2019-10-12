@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bbtest/static/css/main.e614ffb8.chunk.css",
+    "main.js": "/bbtest/static/js/main.c2ed799e.chunk.js",
+    "main.js.map": "/bbtest/static/js/main.c2ed799e.chunk.js.map",
+    "runtime~main.js": "/bbtest/static/js/runtime~main.abdd80b5.js",
+    "runtime~main.js.map": "/bbtest/static/js/runtime~main.abdd80b5.js.map",
+    "static/js/2.aaad334a.chunk.js": "/bbtest/static/js/2.aaad334a.chunk.js",
+    "static/js/2.aaad334a.chunk.js.map": "/bbtest/static/js/2.aaad334a.chunk.js.map",
+    "index.html": "/bbtest/index.html",
+    "precache-manifest.46ba2aa7bcd1a3ac23644e423a5a1209.js": "/bbtest/precache-manifest.46ba2aa7bcd1a3ac23644e423a5a1209.js",
+    "service-worker.js": "/bbtest/service-worker.js",
+    "static/css/main.e614ffb8.chunk.css.map": "/bbtest/static/css/main.e614ffb8.chunk.css.map",
+    "static/media/example.png": "/bbtest/static/media/example.b0906997.png"
+  }
+}
