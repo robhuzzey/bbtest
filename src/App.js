@@ -109,20 +109,6 @@ class App extends Component {
       this.chooseNextPlayer()
     }
 
-    chooseNextCard = (playerId) => {
-      const players = [].concat(this.state.players)
-      let nextCard = players[playerId].selectedCard + 1
-      if(nextCard > players[playerId].cards.length - 1) {
-        nextCard = 0
-      }
-      players[playerId].selectedCard = nextCard
-      this.setState(() => {
-        return {
-          players
-        }
-      })
-    }
-
     chooseNextPlayer = () => {
       let playersTurn = this.state.playersTurn + 1
       if(playersTurn > this.state.players.length - 1) {
@@ -150,10 +136,9 @@ class App extends Component {
                       return (
                         <Grid item xs={6} key={`card_${card.id}`}>
                           <div className={`player ${playerState}`}>
-                            <h1>Player {playerId + 1}</h1>
+                            <h1>Player {playerId + 1} {this.state.lastWinner.id === playerId && 'Winner!'}</h1>
                             <p>Score {score}</p>
                             <p>Remaining cards count {player.cards.length}</p>
-                            <Button variant="contained" color="primary" disabled={!isPlaying} onClick={() => this.chooseNextCard(playerId)}>Next card</Button>
                             {player.cards.length > 0 && (
                               <Card 
                                 isActive={isPlaying}
