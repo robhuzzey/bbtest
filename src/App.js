@@ -13,8 +13,7 @@ class App extends Component {
       players: [],
       playersTurn: 0,
       started: false,
-      middleCards: [],
-      lastWinner: {},
+      lastWinner: {}
     }
     state = Object.assign({}, this.initialState)
 

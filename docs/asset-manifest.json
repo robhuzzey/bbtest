@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bbtest/static/css/main.e614ffb8.chunk.css",
-    "main.js": "/bbtest/static/js/main.2e319be4.chunk.js",
-    "main.js.map": "/bbtest/static/js/main.2e319be4.chunk.js.map",
+    "main.js": "/bbtest/static/js/main.2392dbee.chunk.js",
+    "main.js.map": "/bbtest/static/js/main.2392dbee.chunk.js.map",
     "runtime~main.js": "/bbtest/static/js/runtime~main.abdd80b5.js",
     "runtime~main.js.map": "/bbtest/static/js/runtime~main.abdd80b5.js.map",
     "static/js/2.311b7029.chunk.js": "/bbtest/static/js/2.311b7029.chunk.js",
     "static/js/2.311b7029.chunk.js.map": "/bbtest/static/js/2.311b7029.chunk.js.map",
     "index.html": "/bbtest/index.html",
-    "precache-manifest.28ed742824c0cdf9f05ddeca7c2b6dd6.js": "/bbtest/precache-manifest.28ed742824c0cdf9f05ddeca7c2b6dd6.js",
+    "precache-manifest.5ef5bb19bf501be484ee463a14ca2b30.js": "/bbtest/precache-manifest.5ef5bb19bf501be484ee463a14ca2b30.js",
     "service-worker.js": "/bbtest/service-worker.js",
     "static/css/main.e614ffb8.chunk.css.map": "/bbtest/static/css/main.e614ffb8.chunk.css.map"
   }
